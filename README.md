@@ -32,3 +32,18 @@ Now we were ready to create our model using RandomForestClassifier with some bas
 5. bootstrap – ensures whether bootstrap samples are used when building trees and if False, then the whole dataset is used to build each tree.
 
 Now it’s time for some training using “.fit()” in our model with X_train and y_train inside fit it fastens our model that’s how we trained our model very efficiently.
+
+## Results and Discussion, Performance Analysis
+Data Science and Machine Learning has a very important feature to check our accuracy score and most importantly predictions plays an important role in our model. If classification is about separating data into classes, prediction is about fitting a shape that gets as close to the data as possible.
+
+Let’s talk about Prediction in Machine Learning and how it plays an important step in our project. So, “Prediction” refers to the output of an algorithm after it has been trained on a historical dataset and applied to new data when forecasting the likelihood of a particular outcome. In our project we used predict() function of scikit-learn to predict our model taking X_test inside to predict() function and called it y_predict. For our sake we checked the length of our y_predict which gave us 1,45,253 which is equal to the length of X_test before training and predicting our model. So, as far as we are going in right direction towards the end of our project.
+
+We imported accuracy_score, classification_report and confusion_matrix from scikit-learn metrics to check aur models performance after predicts done on our model. It gave us some very excellent results with accuracy of 95.20%.
+
+The classification report visualizer displays the precision, recall, F1, and support scores for the model.
+
+The confusion matrix is a matrix used to determine the performance of the classification models for a given set of test data. We used heatmap to do our visualization of our confusion matrix of y_test and our y_predict to see better results. We describe predicted values as Positive and Negative and actual values as True and False.
+
+Accuracy, precision and recall should be high as possible. It is difficult to compare two models with low precision and high recall or vice versa. So, to make them comparable, we use F-Score. F-score helps to measure Recall and Precision at the same time.
+
+## Thus, we were pleased to see that our model was not struggling with overfitting and during classification problems to check our model we used some nice techniques to check our model too.
