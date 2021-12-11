@@ -46,4 +46,4 @@ The confusion matrix is a matrix used to determine the performance of the classi
 
 Accuracy, precision and recall should be high as possible. It is difficult to compare two models with low precision and high recall or vice versa. So, to make them comparable, we use F-Score. F-score helps to measure Recall and Precision at the same time.
 
-## Thus, we were pleased to see that our model was not struggling with overfitting and during classification problems to check our model we used some nice techniques to check our model too.
+### Thus, we were pleased to see that our model was not struggling with overfitting and during classification problems to check our model we used some nice techniques to check our model too.
