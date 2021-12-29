@@ -47,3 +47,17 @@ The confusion matrix is a matrix used to determine the performance of the classi
 Accuracy, precision and recall should be high as possible. It is difficult to compare two models with low precision and high recall or vice versa. So, to make them comparable, we use F-Score. F-score helps to measure Recall and Precision at the same time.
 
 ### Thus, we were pleased to see that our model was not struggling with overfitting and during classification problems to check our model we used some nice techniques to check our model too.
+
+## References
+- CoverType Data Set [UCI](https://archive.ics.uci.edu/ml/datasets/covertype)
+- Research Papers 
+   - [Paper 1](https://cseweb.ucsd.edu/classes/wi15/cse255-a/reports/wi15/Yerlan_Idelbayev.pdf)
+   - [Paper 2](http://cs229.stanford.edu/proj2014/Kevin%20Crain,%20Graham%20Davis,%20Classifying%20Forest%20Cover%20Type%20using%20Cartographic%20Features.pdf)
+- Kaggle [Link](https://www.kaggle.com/uciml/forest-cover-type-dataset), [Notebook](https://www.kaggle.com/kshitijbarnwal/predictions-using-random-forest), [Example Notebook](https://www.kaggle.com/manisha14/prediction-using-random-forest)
+- Scikit-learn [Random Forest](https://scikitlearn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+- Blogs
+  - Random Forest
+    - [Section](https://www.section.io/engineering-education/introduction-to-random-forest-in-machine-learning/)
+    - [TowardsDataScience](https://towardsdatascience.com/understanding-random-forest-58381e0602d2) 
+  - [Classification Report](https://medium.com/@kohlishivam5522/understanding-a-classification-report-for-your-machine-learning-model-88815e2ce397)
+  - [Confusion Matrix](https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62)
